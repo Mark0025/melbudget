@@ -74,12 +74,15 @@ class CSVProcessor:
             transactions = []
             for idx, row in df.iterrows():
                 try:
-                    # Parse date first
-                    posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
-                    
+                    # The actual date is in the Details field
+                    posting_date = datetime.strptime(str(row['Details']), '%m/%d/%Y')
+            
                     # Clean and convert amount and balance
                     amount = self.clean_decimal(str(row['Amount']))
                     balance = self.clean_decimal(str(row['Balance']))
+
+                    # The transaction details are in the Posting Date field
+                    description = str(row['Posting Date']).strip()
                     
                     # Log the values for debugging
                     logger.debug(f"Raw amount: {row['Amount']} -> Cleaned: {amount}")
@@ -110,7 +113,7 @@ class CSVProcessor:
                     transaction = Transaction(
                         details=details,
                         posting_date=posting_date,
-                        description=str(row['Description']).strip(),
+                        description=description,
                         amount=amount,
                         transaction_type=trans_type,
                         balance=balance,
