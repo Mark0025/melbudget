@@ -1,0 +1,2348 @@
+{
+  "transactions": [
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-9.78",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-20.29",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-119.09",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-30.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-30.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-30.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-30.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.45",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-14.55",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-42.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-18.18",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.66",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.96",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.27",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/27/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-32.5",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/27/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-87.52",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/27/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-113.39",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/27/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-9.67",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/27/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-19.9",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/26/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.57",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/26/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "614.98",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/26/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "100.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/26/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-21.5",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-13.79",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "40.6",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/01/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.58",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "1.4",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/01/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.64",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/01/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.25",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-24.03",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-49.55",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.07",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-4.55",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-2.18",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-2.18",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-13.26",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-154.02",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.85",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-70.35",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.47",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/04/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "733.58",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/04/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "1014.59",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/04/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.11",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.04",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.58",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.85",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.53",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.26",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-4.89",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/02/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-9.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/02/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.23",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/02/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-9.27",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/02/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-9.96",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/01/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.71",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/01/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-4.34",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.61",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-23.9",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "15.16",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/06/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-1.41",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/05/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-4.01",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/05/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.7",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/04/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-26.78",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/04/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-18.49",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/04/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-36.43",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-13.47",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-23.51",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-28.88",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-32.64",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/03/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "08/30/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-115.19",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "08/29/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-18.49",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "08/28/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "371.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "08/27/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-14.46",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "07/05/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-4.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "07/01/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-13.58",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/28/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.11",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/28/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-4.33",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/27/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-27.91",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/26/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-20.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.7",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-11.72",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-400.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-22.15",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/06/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-21.5",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "825.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/12/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.85",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-10.6",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-11.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-61.5",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-14.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-13.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-2.49",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-10.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-19.42",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-20.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-115.2",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-152.39",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-94.84",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-125.02",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-36.77",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/20/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-121.19",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/20/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-1015.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/20/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "795.94",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/20/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "300.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/19/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "60.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/16/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-16.55",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "09/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-400.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/05/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-10.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-87.59",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-81.7",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-2.6",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-600.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-610.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.61",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/18/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-22.91",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/18/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "245.62",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/18/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "644.37",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/18/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "769.66",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/18/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-40.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-68.65",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-19.06",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-10.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.03",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-24.93",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-4.99",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.26",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "100.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "1.0",
+      "details": "10/17/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-2.81",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/16/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-289.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/16/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-14.14",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/16/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-29.43",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/16/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.13",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-371.56",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-47.58",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-75.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-9.97",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "147.38",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.09",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "673.78",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/25/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-24.62",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-10.84",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-18.99",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-49.76",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-34.89",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-0.97",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.45",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "100.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "1.0",
+      "details": "10/24/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-21.5",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-14.68",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-0.99",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.45",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.45",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/23/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-26.95",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-22.99",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-2.61",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-289.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-24.14",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-20.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-20.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/22/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.06",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/21/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.57",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-24.42",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.26",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-14.79",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.61",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.68",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.41",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "614.98",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-46.75",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-1.94",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-401.5",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-11.92",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.91",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.45",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-26.2",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.06",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/10/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-63.25",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-13.61",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-10.86",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.81",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-12.45",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.6",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "683.09",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/09/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-30.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/08/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-5.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.53",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-19.42",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-31.82",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-15.39",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-71.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-18.47",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-14.23",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-18.29",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-3.68",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-26.99",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.06",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-26.04",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-21.13",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.81",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.61",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-884.71",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-19.2",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/07/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-107.41",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.09",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-8.25",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-150.18",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-6.61",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "147.38",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "227.31",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "100.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "1.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "150.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "1.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "250.0",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "1.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-68.81",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-131.53",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-7.05",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/11/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "-9.38",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "10/15/2024",
+      "check_number": null
+    },
+    {
+      "id": null,
+      "posting_date": "1900-01-01T00:00:00",
+      "description": "911.09",
+      "amount": "0.0",
+      "transaction_type": "OTHER",
+      "balance": "0.0",
+      "details": "06/04/2024",
+      "check_number": null
+    }
+  ],
+  "summary": {
+    "total_transactions": 233,
+    "total_spent": "0",
+    "total_received": "0",
+    "average_transaction": "0.0",
+    "date_range": "1900-01-01 to 1900-01-01"
+  },
+  "monthly_stats": {
+    "January 1900": {
+      "spent": "0",
+      "received": "0.0",
+      "transaction_count": 233
+    }
+  }
+}

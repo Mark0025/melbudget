@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Financial Dashboard</h1>
+
+<div class="summary-stats">
+    <h2>Total Transactions</h2>
+    <p>{{ summary.total_transactions }}</p>
+
+    <h2>Total Spent</h2>
+    <p>${{ "{:,.2f}".format(summary.total_spent|abs) }}</p>
+
+    <h2>Total Received</h2>
+    <p>${{ "{:,.2f}".format(summary.total_received) }}</p>
+
+    <h2>Average Transaction</h2>
+    <p>${{ "{:,.2f}".format(summary.average_transaction) }}</p>
+
+    <h2>Date Range</h2>
+    <p>{{ summary.date_range }}</p>
+</div>
+
+<h2>Transactions List</h2>
+<table class="transactions-table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Balance</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for transaction in transactions %}
+        <tr>
+            <td>{{ transaction.posting_date.strftime('%Y-%m-%d') }}</td>
+            <td>{{ transaction.description }}</td>
+            <td class="{{ 'negative' if transaction.amount < 0 else 'positive' }}">
+                ${{ "{:,.2f}".format(transaction.amount) }}
+            </td>
+            <td>${{ "{:,.2f}".format(transaction.balance) }}</td>
+            <td>{{ transaction.transaction_type }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<h2>Monthly Statistics</h2>
+<div class="monthly-stats">
+    {% for month, stats in monthly_stats.items() %}
+    <div class="month-card">
+        <h3>{{ month }}</h3>
+        <p>Total Spent: ${{ "{:,.2f}".format(stats.total_spent) }}</p>
+        <p>Total Received: ${{ "{:,.2f}".format(stats.total_received) }}</p>
+        <p>Transactions: {{ stats.transaction_count }}</p>
+        <p>Largest Transaction: ${{ "{:,.2f}".format(stats.largest_transaction) }}</p>
+        <p>Most Common Type: {{ stats.most_common_type }}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %} 

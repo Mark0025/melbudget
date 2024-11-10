@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Map CSV Headers</h1>
+
+<form method="POST">
+    <p>The headers in your CSV file match our expected format. Click continue to process the file.</p>
+    
+    <button type="submit" class="btn btn-primary">Continue</button>
+    <a href="{{ url_for('upload') }}" class="btn btn-secondary">Cancel</a>
+</form>
+{% endblock %} 

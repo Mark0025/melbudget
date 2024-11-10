@@ -1,0 +1,29 @@
+<div class="transactions-container calendar-view">
+    <h2>Calendar View</h2>
+    <div class="calendar">
+        {% for month, transactions in transactions_by_month.items() %}
+        <div class="month-container">
+            <h3>{{ month }}</h3>
+            <div class="month-summary">
+                <p>Total Spent: ${{ "%.2f"|format(monthly_stats[month].spent|abs) }}</p>
+                <p>Total Received: ${{ "%.2f"|format(monthly_stats[month].received) }}</p>
+            </div>
+            <div class="day-grid">
+                {% for day in range(1, 32) %}
+                    {% if day in transactions_by_day[month] %}
+                    <div class="day has-transactions" 
+                         title="Transactions on {{ month }} {{ day }}">
+                        {{ day }}
+                        <span class="transaction-count">
+                            {{ transactions_by_day[month][day]|length }}
+                        </span>
+                    </div>
+                    {% else %}
+                    <div class="day">{{ day }}</div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div> 

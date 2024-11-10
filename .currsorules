@@ -1,0 +1,28 @@
+# CSV Header Mapping Rules
+CHASE_CSV_HEADERS = {
+    'Details': 'Details',  # Keep original
+    'Posting Date': 'Posting Date',  # Keep original
+    'Description': 'Description',  # Keep original
+    'Amount': 'Amount',  # Keep original
+    'Type': 'Type',  # Keep original
+    'Balance': 'Balance',  # Keep original
+    'Check or Slip #': 'Check or Slip #'  # Keep original
+}
+
+# Data Type Rules
+DATA_TYPES = {
+    'Details': str,  # DEBIT/CREDIT/DSLIP
+    'Posting Date': 'datetime',  # mm/dd/yyyy
+    'Description': str,  # Transaction description
+    'Amount': 'decimal',  # Currency amount
+    'Type': str,  # Transaction type
+    'Balance': 'decimal',  # Running balance
+    'Check or Slip #': str  # Optional check number
+}
+
+# DO NOT MODIFY CHASE CSV HEADERS
+# DO NOT SKIP HEADER ROW
+# DO NOT RENAME COLUMNS
+# PRESERVE ORIGINAL COLUMN NAMES AND ORDER
+
+# Git Hub Repo: https://github.com/Mark0025/melbudget.git

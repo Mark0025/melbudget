@@ -1,0 +1,26 @@
+<div class="transactions-container timeline-view">
+    <h2>Timeline View</h2>
+    <div class="timeline">
+        {% for date, day_transactions in transactions_by_date.items() %}
+        <div class="timeline-day">
+            <div class="timeline-date">
+                <h3>{{ date }}</h3>
+                <p>Total: ${{ "%.2f"|format(day_transactions|sum(attribute='Amount')) }}</p>
+            </div>
+            <div class="timeline-transactions">
+                {% for t in day_transactions %}
+                <div class="timeline-transaction">
+                    <div class="transaction-time">{{ t['Posting-Date']|truncate(10, True, '') }}</div>
+                    <div class="transaction-details">
+                        <div class="transaction-description">{{ t.Description }}</div>
+                        <div class="transaction-amount {{ 'negative' if t.Amount < 0 else 'positive' }}">
+                            ${{ "%.2f"|format(t.Amount) }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div> 
