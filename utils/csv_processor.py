@@ -34,13 +34,24 @@ class CSVProcessor:
     def clean_decimal(self, value: str) -> Decimal:
         """Clean and convert string to Decimal"""
         try:
-            # Remove currency symbols, spaces, and commas
+            if pd.isna(value):
+                return Decimal('0')
+            
+            # Convert to string and clean
             cleaned = str(value).replace('$', '').replace(',', '').strip()
+            
             # Handle parentheses for negative numbers
             if cleaned.startswith('(') and cleaned.endswith(')'):
                 cleaned = '-' + cleaned[1:-1]
-            return Decimal(cleaned)
-        except (InvalidOperation, TypeError):
+            
+            # Convert to Decimal
+            decimal_value = Decimal(cleaned)
+            
+            logger.debug(f"Cleaned decimal: {value} -> {decimal_value}")
+            return decimal_value
+            
+        except (InvalidOperation, TypeError) as e:
+            logger.error(f"Error converting {value} to Decimal: {e}")
             return Decimal('0')
 
     def process_csv(self, csv_path: Path) -> List[Transaction]:
@@ -60,12 +71,13 @@ class CSVProcessor:
             transactions = []
             for idx, row in df.iterrows():
                 try:
-                    # Clean and convert amount
-                    # Clean and convert amount
+                    # Clean and convert amount and balance
                     amount = self.clean_decimal(row['Amount'])
-                    
-                    # Clean and convert balance 
                     balance = self.clean_decimal(row['Balance'])
+                    
+                    # Log the values for debugging
+                    logger.debug(f"Raw amount: {row['Amount']} -> Cleaned: {amount}")
+                    logger.debug(f"Raw balance: {row['Balance']} -> Cleaned: {balance}")
                     
                     # Parse date with flexible format
                     try:
@@ -81,24 +93,30 @@ class CSVProcessor:
                             posting_date = datetime.now()
                     
                     # Get transaction type
-                    details = str(row['Details']).upper()
-                    type_str = str(row['Type']).upper()
+                    details = str(row['Details']).upper() if pd.notna(row['Details']) else ''
+                    type_str = str(row['Type']).upper() if pd.notna(row['Type']) else ''
                     
                     # Map transaction types
-                    if 'CREDIT' in details or 'ACH_CREDIT' in type_str:
-                        trans_type = TransactionType.ACH_CREDIT
-                    elif 'DSLIP' in details or 'CHECK' in type_str:
-                        trans_type = TransactionType.CHECK_DEPOSIT
-                    elif 'FEE' in type_str:
-                        trans_type = TransactionType.FEE_TRANSACTION
-                    elif 'ACH_DEBIT' in type_str:
-                        trans_type = TransactionType.ACH_DEBIT
-                    elif 'DEBIT_CARD' in type_str:
-                        trans_type = TransactionType.DEBIT_CARD
-                    elif 'DEPOSIT' in type_str:
-                        trans_type = TransactionType.DEPOSIT
-                    else:
-                        trans_type = TransactionType.MISC_DEBIT
+                    if amount > 0:  # Positive amount indicates credit/deposit
+                        if 'CREDIT' in details or 'ACH_CREDIT' in type_str:
+                            trans_type = TransactionType.ACH_CREDIT
+                        elif 'DSLIP' in details or 'CHECK' in type_str:
+                            trans_type = TransactionType.CHECK_DEPOSIT
+                        elif 'DEPOSIT' in type_str:
+                            trans_type = TransactionType.DEPOSIT
+                        else:
+                            trans_type = TransactionType.DEPOSIT
+                    else:  # Negative amount indicates debit
+                        if 'FEE' in type_str:
+                            trans_type = TransactionType.FEE_TRANSACTION
+                        elif 'ACH_DEBIT' in type_str:
+                            trans_type = TransactionType.ACH_DEBIT
+                        elif 'DEBIT_CARD' in type_str:
+                            trans_type = TransactionType.DEBIT_CARD
+                        else:
+                            trans_type = TransactionType.MISC_DEBIT
+                            
+                    logger.debug(f"Transaction type mapping: details={details}, type={type_str} -> {trans_type}")
                     
                     transaction = Transaction(
                         details=details,
