@@ -5,6 +5,8 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 import logging
 from typing import List, Dict
+import csv
+import json
 
 from models import Transaction, TransactionType
 
@@ -57,82 +59,93 @@ class CSVProcessor:
             logger.error(f"Error converting {value} to Decimal: {e}")
             return Decimal('0')
 
-    def process_csv(self, csv_path: Path) -> List[Transaction]:
+    def process_csv_row(self, row):
+        """Process a single CSV row with proper type conversion"""
         try:
-            logger.info(f"Processing CSV file: {csv_path}")
+            processed = {}
             
-            # Read CSV with explicit headers
-            df = pd.read_csv(csv_path)
-            logger.info(f"Loaded CSV with {len(df)} rows")
+            # Details field (str: "DEBIT" | "CREDIT" | "DSLIP")
+            processed["Details"] = str(row.get("Details", "")).strip()
             
-            # Verify expected columns exist
-            expected_columns = ['Details', 'Posting Date', 'Description', 'Amount', 'Type', 'Balance', 'Check or Slip #']
-            if not all(col in df.columns for col in expected_columns):
-                logger.error(f"Missing expected columns. Found: {df.columns}")
-                return []
+            # Posting Date (str in format MM/DD/YYYY)
+            date_str = row.get("Posting Date", "").strip()
+            processed["Posting Date"] = date_str
             
-            transactions = []
-            for idx, row in df.iterrows():
-                try:
-                    # The actual date is in the Posting Date field
-                    posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
+            # Description (str) - Handle quotes and extra spaces
+            desc = row.get("Description", "").strip()
+            if desc.startswith('"') and desc.endswith('"'):
+                desc = desc[1:-1]
+            processed["Description"] = desc
             
-                    # Clean and convert amount and balance
-                    amount = self.clean_decimal(str(row['Amount']))
-                    balance = self.clean_decimal(str(row['Balance']))
-
-                    # The transaction details are in the Description field
-                    description = str(row['Description']).strip()
-                    
-                    # Log the values for debugging
-                    logger.debug(f"Raw amount: {row['Amount']} -> Cleaned: {amount}")
-                    logger.debug(f"Raw balance: {row['Balance']} -> Cleaned: {balance}")
-                    
-                    # Get transaction type from Details and Type columns
-                    type_str = str(row['Type']).upper() if pd.notna(row['Type']) else ''
-                    details = str(row['Details']).upper() if pd.notna(row['Details']) else ''
-                    
-                    # Map transaction types based on Details and Type columns
-                    if type_str == 'ACH_CREDIT':
-                        trans_type = TransactionType.ACH_CREDIT
-                    elif type_str == 'CHECK_DEPOSIT':
-                        trans_type = TransactionType.CHECK_DEPOSIT
-                    elif type_str == 'DEPOSIT':
-                        trans_type = TransactionType.DEPOSIT
-                    elif type_str == 'FEE_TRANSACTION':
-                        trans_type = TransactionType.FEE_TRANSACTION
-                    elif type_str == 'ACH_DEBIT':
-                        trans_type = TransactionType.ACH_DEBIT
-                    elif type_str == 'DEBIT_CARD':
-                        trans_type = TransactionType.DEBIT_CARD
-                    else:
-                        trans_type = TransactionType.MISC_DEBIT
-                            
-                    logger.debug(f"Transaction type mapping: details={details}, type={type_str} -> {trans_type}")
-                    
-                    transaction = Transaction(
-                        details=details,
-                        posting_date=posting_date,
-                        description=description,
-                        amount=amount,
-                        transaction_type=trans_type,
-                        balance=balance,
-                        check_number=str(row['Check or Slip #']) if pd.notna(row['Check or Slip #']) else None
-                    )
-                    transactions.append(transaction)
-                    
-                except Exception as e:
-                    logger.error(f"Error processing row {idx}: {row.to_dict()}")
-                    logger.error(f"Error details: {str(e)}")
-                    continue
-
-            if not transactions:
-                logger.warning("No transactions were processed")
+            # Amount (float) - Handle negative values and currency formatting
+            amount_str = str(row.get("Amount", "0")).strip()
+            try:
+                # Remove any currency symbols and commas
+                amount_str = amount_str.replace("$", "").replace(",", "")
+                processed["Amount"] = float(amount_str)
+            except ValueError:
+                processed["Amount"] = 0.0
+            
+            # Map CSV transaction types to our enum values
+            type_mapping = {
+                'ATM': 'MISC_DEBIT',  # Map ATM transactions to MISC_DEBIT
+                'DEBIT_CARD': 'DEBIT_CARD',
+                'ACH_CREDIT': 'ACH_CREDIT',
+                'ACH_DEBIT': 'ACH_DEBIT',
+                'FEE_TRANSACTION': 'FEE_TRANSACTION',
+                'CHECK_DEPOSIT': 'CHECK_DEPOSIT',
+                'DEPOSIT': 'DEPOSIT',
+                'MISC_DEBIT': 'MISC_DEBIT'
+            }
+            
+            raw_type = str(row.get("Type", "")).strip()
+            processed["Type"] = type_mapping.get(raw_type, 'MISC_DEBIT')  # Default to MISC_DEBIT if unknown
+            
+            # Balance (float) - Handle currency formatting
+            balance_str = str(row.get("Balance", "0")).strip()
+            try:
+                balance_str = balance_str.replace("$", "").replace(",", "")
+                processed["Balance"] = float(balance_str)
+            except ValueError:
+                processed["Balance"] = 0.0
+            
+            # Check or Slip # (str or null) - Keep as string, don't convert to int
+            check_num = row.get("Check or Slip #", "").strip()
+            if check_num and check_num != "," and check_num != ",,":
+                processed["Check or Slip #"] = str(check_num)  # Keep as string
             else:
-                logger.info(f"Successfully processed {len(transactions)} transactions")
+                processed["Check or Slip #"] = None
                 
-            return transactions
+            return processed
             
         except Exception as e:
-            logger.error(f"Error processing CSV: {e}")
-            return []
+            logger.error(f"Error processing row: {row} - Error: {e}")
+            return None
+
+    def process_csv(self, csv_file_path):
+        """Process the CSV file and return structured Transaction objects"""
+        with open(csv_file_path, 'r') as file:
+            csv_reader = csv.DictReader(file)
+            
+            transactions = []
+            for row in csv_reader:
+                processed_row = self.process_csv_row(row)
+                if processed_row:
+                    # Fix: Change 'type' to 'transaction_type' to match model
+                    transaction = Transaction(
+                        details=processed_row["Details"],
+                        posting_date=datetime.strptime(processed_row["Posting Date"], "%m/%d/%Y"),
+                        description=processed_row["Description"],
+                        amount=Decimal(str(processed_row["Amount"])),
+                        transaction_type=processed_row["Type"],
+                        balance=Decimal(str(processed_row["Balance"])),
+                        check_number=processed_row["Check or Slip #"]
+                    )
+                    transactions.append(transaction)
+            
+            return transactions
+
+    def save_json(self, data, output_path):
+        """Save the processed data as JSON without comments"""
+        with open(output_path, 'w') as f:
+            json.dump(data, f, indent=2)

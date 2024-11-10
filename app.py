@@ -61,34 +61,42 @@ def allowed_file(filename):
 @app.route('/')
 def home():
     logger.info('Home page accessed')
-    # Check for existing processed files
-    processed_files = processor.get_processed_files()
-    if processed_files:
-        # Load the most recent file's data
-        latest_file = processed_files[-1]
-        transactions = processor.load_all_transactions().get(latest_file, [])
-        if transactions:
-            # Calculate summary and monthly stats (reuse your existing code)
-            summary = TransactionSummary(
-                total_transactions=len(transactions),
-                total_spent=sum(t.amount for t in transactions if t.amount < 0),
-                total_received=sum(t.amount for t in transactions if t.amount > 0),
-                average_transaction=sum(t.amount for t in transactions) / len(transactions) if transactions else Decimal('0'),
-                date_range=(
-                    f"{min(t.posting_date for t in transactions).strftime('%Y-%m-%d')} to "
-                    f"{max(t.posting_date for t in transactions).strftime('%Y-%m-%d')}"
-                ) if transactions else "No date range available"
-            )
-            monthly_stats = {}
+    try:
+        # Check for existing processed files
+        processed_files = processor.get_processed_files()
+        if processed_files:
+            # Load the most recent file's data
+            latest_file = processed_files[0]  # Changed from -1 since list is already sorted
+            logger.info(f"Loading most recent file: {latest_file}")
             
-            dashboard_data = DashboardData(
-                transactions=transactions,
-                summary=summary,
-                monthly_stats=monthly_stats
-            )
-            session['dashboard_data'] = dashboard_data.model_dump()
-            return redirect(url_for('dashboard'))
-            
+            transactions = processor.load_all_transactions().get(latest_file, [])
+            if transactions:
+                # Calculate summary and monthly stats
+                summary = TransactionSummary(
+                    total_transactions=len(transactions),
+                    total_spent=sum(t.amount for t in transactions if t.amount < 0),
+                    total_received=sum(t.amount for t in transactions if t.amount > 0),
+                    average_transaction=sum(t.amount for t in transactions) / len(transactions) if transactions else Decimal('0'),
+                    date_range=(
+                        f"{min(t.posting_date for t in transactions).strftime('%Y-%m-%d')} to "
+                        f"{max(t.posting_date for t in transactions).strftime('%Y-%m-%d')}"
+                    ) if transactions else "No date range available"
+                )
+                
+                dashboard_data = DashboardData(
+                    transactions=transactions,
+                    summary=summary,
+                    monthly_stats={}  # You can implement monthly stats calculation here
+                )
+                session['dashboard_data'] = dashboard_data.model_dump()
+                return redirect(url_for('dashboard'))
+            else:
+                logger.warning(f"No transactions found in {latest_file}")
+                
+    except Exception as e:
+        logger.error(f"Error processing CSV data: {e}")
+        flash("Error processing transaction data", "error")
+    
     return redirect(url_for('upload'))
 
 @app.route('/upload', methods=['GET', 'POST'])

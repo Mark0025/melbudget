@@ -16,3 +16,4 @@ logs/
 
 # Environment variables
 .env
+.aider*

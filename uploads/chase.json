@@ -1,0 +1,401 @@
+{
+  "headers": ["Details", "Posting Date", "Description", "Amount", "Type", "Balance", "Check or Slip #"],
+  "data": [
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/25/2024",
+      "Description": "House of Sports Oklahoma City OK             10/24",
+      "Amount": -9.78,
+      "Type": "DEBIT_CARD",
+      "Balance": 672.18,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/25/2024",
+      "Description": "TACO BUENO #3035 OKC OK                      10/24",
+      "Amount": -8.09,
+      "Type": "DEBIT_CARD",
+      "Balance": 681.96,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "CREDIT",
+      "Posting Date": "10/25/2024",
+      "Description": "ORIG CO NAME:SELL YOUR HOUSE        ORIG ID:1462800242 DESC DATE:241025 CO ENTRY DESCR:PAYROLL   SEC:PPD    TRACE#:111000024237597 EED:241025   IND ID:                             IND NAME:MARK CARPENTER TRN: 2994237597TC",
+      "Amount": 673.78,
+      "Type": "ACH_CREDIT",
+      "Balance": 690.05,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "CASEYS #4019 10807 N OKLAHOMA CITY OK406388  10/24",
+      "Amount": -24.62,
+      "Type": "DEBIT_CARD",
+      "Balance": 16.27,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "WAL-MART #0622 OKLAHOMA CITY OK      336181  10/24",
+      "Amount": -10.84,
+      "Type": "DEBIT_CARD",
+      "Balance": 40.89,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "DOLLAR GENERAL # DG 23 MUSTANG OK    222862  10/24",
+      "Amount": -18.99,
+      "Type": "DEBIT_CARD",
+      "Balance": 51.73,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "ONE-52 BAR & GRILL MUSTANG OK                10/23",
+      "Amount": -49.76,
+      "Type": "DEBIT_CARD",
+      "Balance": 70.72,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "AMI ENTERTAINMENT NET 616-243-3633 MI        10/24",
+      "Amount": -12.00,
+      "Type": "DEBIT_CARD",
+      "Balance": 120.48,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "DOMINO'S 6447 303-618-1750 OK                10/23",
+      "Amount": -34.89,
+      "Type": "DEBIT_CARD",
+      "Balance": 132.48,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "7-ELEVEN 41445 MUSTANG OK                    10/23",
+      "Amount": -0.97,
+      "Type": "DEBIT_CARD",
+      "Balance": 167.37,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/24/2024",
+      "Description": "TAQUERIA LA PLACITA #2 MUSTANG OK            10/23",
+      "Amount": -12.45,
+      "Type": "DEBIT_CARD",
+      "Balance": 168.34,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DSLIP",
+      "Posting Date": "10/24/2024",
+      "Description": "REMOTE ONLINE DEPOSIT #          1",
+      "Amount": 100.00,
+      "Type": "CHECK_DEPOSIT",
+      "Balance": 180.79,
+      "Check or Slip #": 1
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/23/2024",
+      "Description": "NON-CHASE ATM FEE-WITH",
+      "Amount": -3.00,
+      "Type": "FEE_TRANSACTION",
+      "Balance": 80.79,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/23/2024",
+      "Description": "NON-CHASE ATM WITHDRAW               815547  10/231711 W HI",
+      "Amount": -21.50,
+      "Type": "ATM",
+      "Balance": 83.79,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/23/2024",
+      "Description": "7-ELEVEN 41445 MUSTANG OK                    10/22",
+      "Amount": -14.68,
+      "Type": "DEBIT_CARD",
+      "Balance": 105.29,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/23/2024",
+      "Description": "AAA STOP OKLAHOMA CITY OK                    10/22",
+      "Amount": -0.99,
+      "Type": "DEBIT_CARD",
+      "Balance": 119.97,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/23/2024",
+      "Description": "TAQUERIA LA PLACITA #2 MUSTANG OK            10/22",
+      "Amount": -12.45,
+      "Type": "DEBIT_CARD",
+      "Balance": 120.96,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/23/2024",
+      "Description": "MINUTEKEY BOULDER CO                         10/22",
+      "Amount": -5.45,
+      "Type": "DEBIT_CARD",
+      "Balance": 133.41,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "NON-CHASE ATM FEE-WITH",
+      "Amount": -3.00,
+      "Type": "FEE_TRANSACTION",
+      "Balance": 138.86,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "7-ELEVEN 41445 MUSTANG OK            619872  10/22",
+      "Amount": -26.95,
+      "Type": "DEBIT_CARD",
+      "Balance": 141.86,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "NON-CHASE ATM WITHDRAW               258958  10/227213 S CO",
+      "Amount": -22.99,
+      "Type": "ATM",
+      "Balance": 168.81,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "7-ELEVEN 41481 YUKON OK                      10/22",
+      "Amount": -2.61,
+      "Type": "DEBIT_CARD",
+      "Balance": 191.80,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "ORIG CO NAME:CKenergy               ORIG ID:9900002400 DESC DATE:241021 CO ENTRY DESCR:PAYMENT   SEC:WEB    TRACE#:104000011677537 EED:241022   IND ID:990000243935075              IND NAME:melissa carpenter TRN: 2961677537TC",
+      "Amount": -289.00,
+      "Type": "ACH_DEBIT",
+      "Balance": 194.41,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "DOMINO'S 6447 MUSTANG OK                     10/21",
+      "Amount": -24.14,
+      "Type": "DEBIT_CARD",
+      "Balance": 483.41,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "CURSOR, AI POWERED I HTTPSCURSOR.C NY        10/21",
+      "Amount": -20.00,
+      "Type": "DEBIT_CARD",
+      "Balance": 507.55,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "DAILY STOP OKLAHOMA CITY OK                  10/20",
+      "Amount": -20.00,
+      "Type": "DEBIT_CARD",
+      "Balance": 527.55,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/22/2024",
+      "Description": "CASH APP*MELISSA CARPE OAKLAND CA    583765  10/22",
+      "Amount": 147.38,
+      "Type": "DEBIT_CARD",
+      "Balance": 547.55,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "7-ELEVEN 41445 MUSTANG OK                    10/20",
+      "Amount": -7.06,
+      "Type": "DEBIT_CARD",
+      "Balance": 400.17,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "LOUIE'S GRILL AND BAR 405-6420246 OK         10/20",
+      "Amount": -9.97,
+      "Type": "DEBIT_CARD",
+      "Balance": 407.23,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "LOUIE'S GRILL AND BAR 405-6420246 OK         10/20",
+      "Amount": -47.58,
+      "Type": "DEBIT_CARD",
+      "Balance": 417.20,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "LOWES #02574* MIDWEST CITY OK                10/20",
+      "Amount": -81.70,
+      "Type": "DEBIT_CARD",
+      "Balance": 464.78,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "7-ELEVEN 41445 MUSTANG OK                    10/20",
+      "Amount": -2.60,
+      "Type": "DEBIT_CARD",
+      "Balance": 546.48,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "VICTORY MART MUSTANG OK                      10/19",
+      "Amount": -15.00,
+      "Type": "DEBIT_CARD",
+      "Balance": 549.08,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "CASH APP*MELISSA CARPE 800-9691940 CA        10/18",
+      "Amount": -600.00,
+      "Type": "DEBIT_CARD",
+      "Balance": 564.08,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/21/2024",
+      "Description": "ICP*Dynamo Gymnastics 405-7280500 OK         10/19",
+      "Amount": -610.00,
+      "Type": "DEBIT_CARD",
+      "Balance": 1164.08,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/18/2024",
+      "Description": "DUTCH BROS OK0205 MUSTA MUSTANG OK           10/17",
+      "Amount": -6.61,
+      "Type": "DEBIT_CARD",
+      "Balance": 1774.08,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/18/2024",
+      "Description": "DD *DOORDASH MCDONALD 855-973-1040 CA        10/17",
+      "Amount": -22.91,
+      "Type": "DEBIT_CARD",
+      "Balance": 1780.69,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/18/2024",
+      "Description": "CASH APP*MELISSA CARPE OAKLAND CA    032631  10/18",
+      "Amount": 245.62,
+      "Type": "DEBIT_CARD",
+      "Balance": 1803.60,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "CREDIT",
+      "Posting Date": "10/18/2024",
+      "Description": "ORIG CO NAME:SELL YOUR HOUSE        ORIG ID:1462800242 DESC DATE:241018 CO ENTRY DESCR:PAYROLL   SEC:PPD    TRACE#:111000028519616 EED:241018   IND ID:                             IND NAME:MARK CARPENTER TRN: 2928519616TC",
+      "Amount": 644.37,
+      "Type": "ACH_CREDIT",
+      "Balance": 1557.98,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "CREDIT",
+      "Posting Date": "10/18/2024",
+      "Description": "ORIG CO NAME:PHPMG INC              ORIG ID:1921645898 DESC DATE:       CO ENTRY DESCR:PAYROLL   SEC:PPD    TRACE#:041000129026823 EED:241018   IND ID:                             IND NAME:CARPENTER, MELISSA TRN: 2929026823TC",
+      "Amount": 769.66,
+      "Type": "ACH_CREDIT",
+      "Balance": 913.61,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/17/2024",
+      "Description": "WITHDRAWAL 10/17",
+      "Amount": -40.00,
+      "Type": "MISC_DEBIT",
+      "Balance": 143.95,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/17/2024",
+      "Description": "ALDI 75006 YUKON OK                  491704  10/17",
+      "Amount": -68.65,
+      "Type": "DEBIT_CARD",
+      "Balance": 183.95,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/17/2024",
+      "Description": "DD *DOORDASH HANASUSH 855-431-0459 CA        10/17",
+      "Amount": -19.06,
+      "Type": "DEBIT_CARD",
+      "Balance": 252.60,
+      "Check or Slip #": null
+    },
+    {
+      "Details": "DEBIT",
+      "Posting Date": "10/17/2024",
+      "Description": "PRIMARYHEALTHPARTNER PRIMARYHEALTH OK        10/16",
+      "Amount": -10.00,
+      "Type": "DEBIT_CARD",
+      "Balance": 271.66,
+      "Check or Slip #": null
+    }
+  ]
+}
