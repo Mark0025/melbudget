@@ -34,7 +34,7 @@ class CSVProcessor:
     def clean_decimal(self, value: str) -> Decimal:
         """Clean and convert string to Decimal"""
         try:
-            if pd.isna(value):
+            if pd.isna(value) or not value:
                 return Decimal('0')
             
             # Convert to string and clean
@@ -43,6 +43,9 @@ class CSVProcessor:
             # Handle parentheses for negative numbers
             if cleaned.startswith('(') and cleaned.endswith(')'):
                 cleaned = '-' + cleaned[1:-1]
+                
+            # Remove any trailing spaces or characters
+            cleaned = ''.join(c for c in cleaned if c.isdigit() or c in '.-')
             
             # Convert to Decimal
             decimal_value = Decimal(cleaned)
@@ -71,50 +74,36 @@ class CSVProcessor:
             transactions = []
             for idx, row in df.iterrows():
                 try:
+                    # Parse date first
+                    posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
+                    
                     # Clean and convert amount and balance
-                    amount = self.clean_decimal(row['Amount'])
-                    balance = self.clean_decimal(row['Balance'])
+                    amount = self.clean_decimal(str(row['Amount']))
+                    balance = self.clean_decimal(str(row['Balance']))
                     
                     # Log the values for debugging
                     logger.debug(f"Raw amount: {row['Amount']} -> Cleaned: {amount}")
                     logger.debug(f"Raw balance: {row['Balance']} -> Cleaned: {balance}")
                     
-                    # Parse date with flexible format
-                    try:
-                        # First try standard format
-                        posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
-                    except ValueError:
-                        try:
-                            # Fall back to dateutil parser
-                            posting_date = date_parser.parse(str(row['Posting Date']))
-                        except Exception as e:
-                            logger.error(f"Failed to parse date '{row['Posting Date']}': {e}")
-                            # Use today's date as fallback
-                            posting_date = datetime.now()
-                    
-                    # Get transaction type
-                    details = str(row['Details']).upper() if pd.notna(row['Details']) else ''
+                    # Get transaction type from Type column
                     type_str = str(row['Type']).upper() if pd.notna(row['Type']) else ''
+                    details = str(row['Details']).upper() if pd.notna(row['Details']) else ''
                     
-                    # Map transaction types
-                    if amount > 0:  # Positive amount indicates credit/deposit
-                        if 'CREDIT' in details or 'ACH_CREDIT' in type_str:
-                            trans_type = TransactionType.ACH_CREDIT
-                        elif 'DSLIP' in details or 'CHECK' in type_str:
-                            trans_type = TransactionType.CHECK_DEPOSIT
-                        elif 'DEPOSIT' in type_str:
-                            trans_type = TransactionType.DEPOSIT
-                        else:
-                            trans_type = TransactionType.DEPOSIT
-                    else:  # Negative amount indicates debit
-                        if 'FEE' in type_str:
-                            trans_type = TransactionType.FEE_TRANSACTION
-                        elif 'ACH_DEBIT' in type_str:
-                            trans_type = TransactionType.ACH_DEBIT
-                        elif 'DEBIT_CARD' in type_str:
-                            trans_type = TransactionType.DEBIT_CARD
-                        else:
-                            trans_type = TransactionType.MISC_DEBIT
+                    # Map transaction types based on Type column
+                    if type_str == 'ACH_CREDIT':
+                        trans_type = TransactionType.ACH_CREDIT
+                    elif type_str == 'CHECK_DEPOSIT':
+                        trans_type = TransactionType.CHECK_DEPOSIT
+                    elif type_str == 'DEPOSIT':
+                        trans_type = TransactionType.DEPOSIT
+                    elif type_str == 'FEE_TRANSACTION':
+                        trans_type = TransactionType.FEE_TRANSACTION
+                    elif type_str == 'ACH_DEBIT':
+                        trans_type = TransactionType.ACH_DEBIT
+                    elif type_str == 'DEBIT_CARD':
+                        trans_type = TransactionType.DEBIT_CARD
+                    else:
+                        trans_type = TransactionType.MISC_DEBIT
                             
                     logger.debug(f"Transaction type mapping: details={details}, type={type_str} -> {trans_type}")
                     
