@@ -74,25 +74,25 @@ class CSVProcessor:
             transactions = []
             for idx, row in df.iterrows():
                 try:
-                    # The actual date is in the Details field
-                    posting_date = datetime.strptime(str(row['Details']), '%m/%d/%Y')
+                    # The actual date is in the Posting Date field
+                    posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
             
                     # Clean and convert amount and balance
                     amount = self.clean_decimal(str(row['Amount']))
                     balance = self.clean_decimal(str(row['Balance']))
 
-                    # The transaction details are in the Posting Date field
-                    description = str(row['Posting Date']).strip()
+                    # The transaction details are in the Description field
+                    description = str(row['Description']).strip()
                     
                     # Log the values for debugging
                     logger.debug(f"Raw amount: {row['Amount']} -> Cleaned: {amount}")
                     logger.debug(f"Raw balance: {row['Balance']} -> Cleaned: {balance}")
                     
-                    # Get transaction type from Type column
+                    # Get transaction type from Details and Type columns
                     type_str = str(row['Type']).upper() if pd.notna(row['Type']) else ''
                     details = str(row['Details']).upper() if pd.notna(row['Details']) else ''
                     
-                    # Map transaction types based on Type column
+                    # Map transaction types based on Details and Type columns
                     if type_str == 'ACH_CREDIT':
                         trans_type = TransactionType.ACH_CREDIT
                     elif type_str == 'CHECK_DEPOSIT':
