@@ -46,20 +46,25 @@ class CSVProcessor:
         try:
             logger.info(f"Processing CSV file: {csv_path}")
             
-            # Read CSV with explicit headers and skip header row
-            df = pd.read_csv(csv_path, skiprows=1)  # Skip header row
+            # Read CSV with explicit headers
+            df = pd.read_csv(csv_path)
             logger.info(f"Loaded CSV with {len(df)} rows")
+            
+            # Verify expected columns exist
+            expected_columns = ['Details', 'Posting Date', 'Description', 'Amount', 'Type', 'Balance', 'Check or Slip #']
+            if not all(col in df.columns for col in expected_columns):
+                logger.error(f"Missing expected columns. Found: {df.columns}")
+                return []
             
             transactions = []
             for idx, row in df.iterrows():
                 try:
                     # Clean and convert amount
-                    amount_str = str(row['Amount']).replace('$', '').replace(',', '').strip()
-                    amount = Decimal(amount_str)
+                    # Clean and convert amount
+                    amount = self.clean_decimal(row['Amount'])
                     
-                    # Clean and convert balance
-                    balance_str = str(row['Balance']).replace('$', '').replace(',', '').strip()
-                    balance = Decimal(balance_str)
+                    # Clean and convert balance 
+                    balance = self.clean_decimal(row['Balance'])
                     
                     # Parse date
                     posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
