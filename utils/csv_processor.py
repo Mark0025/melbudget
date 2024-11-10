@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+from dateutil import parser as date_parser
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 import logging
@@ -66,8 +67,18 @@ class CSVProcessor:
                     # Clean and convert balance 
                     balance = self.clean_decimal(row['Balance'])
                     
-                    # Parse date
-                    posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
+                    # Parse date with flexible format
+                    try:
+                        # First try standard format
+                        posting_date = datetime.strptime(str(row['Posting Date']), '%m/%d/%Y')
+                    except ValueError:
+                        try:
+                            # Fall back to dateutil parser
+                            posting_date = date_parser.parse(str(row['Posting Date']))
+                        except Exception as e:
+                            logger.error(f"Failed to parse date '{row['Posting Date']}': {e}")
+                            # Use today's date as fallback
+                            posting_date = datetime.now()
                     
                     # Get transaction type
                     details = str(row['Details']).upper()
